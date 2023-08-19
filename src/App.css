@@ -1,0 +1,92 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+.App{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height:fit-content ;
+  vertical-align: middle;
+  background-color: #13060b;
+  
+}
+
+.card {
+  
+  background-color: #f3eeee;
+  min-height: 10vh;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 100px;
+  margin-bottom: 1000px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  width: 500px;
+}
+
+.App h1 {
+  margin-bottom: 50px;
+  margin-left: 35px;
+
+  color: #230405;
+  text-shadow: 2px 2px 4px rgba(203, 7, 203, 0.551);
+  letter-spacing: 1px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.App h1:hover{
+  color: #ff2600;
+  text-shadow: 4px 4px 8px rgba(228, 41, 20, 0.1);
+}
+
+
+.connect-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 160px;
+
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: rgb(253, 251, 251);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.connect-button:hover {
+  background-color: #28cd0b;
+}
+
+.wallet-info{
+  margin-left: 35px;
+  margin-bottom: 20px;
+  border: 2px solid rgb(19, 252, 100);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  padding: 40px;
+
+  
+
+  box-shadow: 10px 10px 15px rgba(23, 231, 155, 0.488);
+}
+
+.balance{
+  margin: 40px;
+  border: 2px solid rgb(244, 15, 248);
+  border-radius: 25px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  box-shadow: 10px 10px 15px rgba(204, 4, 244, 0.449);
+}
